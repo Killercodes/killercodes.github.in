@@ -23,6 +23,9 @@ Library of extension methods
 ### [TraceLogger](https://github.com/Killercodes/TraceLogger)
 Custom Logging using TraceSource with the app.config & web.config file
 
+### [Code-Demo-Tutorial](https://github.com/Killercodes/Code-Demo-Tutorial)
+Code Bank
+
 
 
 
