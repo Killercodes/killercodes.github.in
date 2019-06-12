@@ -10,7 +10,6 @@ A twitter bot based on twit rest API client and runs on nodejs
 
 ### [Bash-On](https://killercodes.github.io/Bash-On/)
 A Hand full of bash & linux commands
-
 ### [Code-blub](https://github.com/Killercodes/code-blub)
 Random segments of code compiled together to create unpredictable protocol ie scratchpad
 
