@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Blog Name="Some random blog">
+  <Post>
+    <Id>123456</Id>
+    <Title>Post 1</Title>
+    <PublishedOn>Friday, December 20, 2019 3:45:16 PM</PublishedOn>
+    <Category>text</Category>
+    <Link></Link>
+    <Author>ABCD</Author>
+    <HashTag>first post,test1</HashTag>
+    <Content>
+      <![CDATA[# Applied
+
+03_Jan, = machine not working on B4
+08_Jan, 
+09_Jan, 
+29_Jan 
+01_Feb_2019, 
+18_Feb_2019, 
+20_Feb_2019 
+18_Mar_2019, = EL Applied 
+29_Mar_2019 = EL Applied 
+31_May = EL Applied 
+04_Jun,
+30_Aug = EL applied
+11_Nov  = EL Applied
+
+16_Apr = RR
+]]>
+    </Content>
+  </Post>
+  <Post>
+    <Id>678910</Id>
+    <Title>Post 2</Title>
+    <PublishedOn>Friday, December 30, 2019 3:45:16 PM</PublishedOn>
+    <Category>text</Category>
+    <Link></Link>
+    <Author>ABCD</Author>
+    <HashTag>second post,test2</HashTag>
+    <Content>
+      <![CDATA[# Applied
+
+03something
+]]>
+    </Content>
+  </Post>
+  <Post>
+    <Id>242342</Id>
+    <Title>Post 3</Title>
+    <PublishedOn>Friday, December 30, 2019 3:45:16 PM</PublishedOn>
+    <Category>text</Category>
+    <Link></Link>
+    <Author>ABCD</Author>
+    <HashTag>second post,test2</HashTag>
+    <Content>
+      <![CDATA[# Applied
+
+03something
+]]>
+    </Content>
+  </Post>
+  <Post>
+    <Id>24234</Id>
+    <Title>Post 4</Title>
+    <PublishedOn>Friday, December 30, 2019 3:45:16 PM</PublishedOn>
+    <Category>text</Category>
+    <Link>https://gist.github.com/Killercodes/ac13dab3865eb6c28fa8444c20e2ecbc.js</Link>
+    <Author>ABCD</Author>
+    <HashTag>second post,test2</HashTag>
+    <Content>
+      <![CDATA[ ntoghing here
+]]>
+    </Content>
+  </Post>
+  <Post>
+    <Id>423423</Id>
+    <Title>Post 5</Title>
+    <PublishedOn>Friday, December 30, 2019 3:45:16 PM</PublishedOn>
+    <Category>text</Category>
+    <Link></Link>
+    <Author>ABCD</Author>
+    <HashTag>second post,test2</HashTag>
+    <Content>
+      <![CDATA[# Applied
+ function displayResult() {
+        xml = loadXMLDoc("Blog.xml");
+        xsl = loadXMLDoc("Blog.xsl");
+        // code for IE
+        if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
+            ex = xml.transformNode(xsl);
+            document.getElementById("example").innerHTML = ex;
+        }
+        // code for Chrome, Firefox, Opera, etc.
+        else if (document.implementation && document.implementation.createDocument) {
+            xsltProcessor = new XSLTProcessor();
+            xsltProcessor.importStylesheet(xsl);
+            resultDocument = xsltProcessor.transformToFragment(xml, document);
+            document.getElementById("example").appendChild(resultDocument);
+        }
+    }
+]]>
+    </Content>
+  </Post>
+</Blog>
