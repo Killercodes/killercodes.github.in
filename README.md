@@ -26,6 +26,7 @@ Custom Logging using TraceSource with the app.config & web.config file
 Code Bank
 
 <a href="GitHub Page/index.md"> link to it </a>
+<a href="GitHub Page/index.html"> link to html page</a>
 
 ### [Extra page](https://github.com/Killercodes/killercodes.github.io/blob/master/GitHub%20Page/index.md)
 Extra page 
