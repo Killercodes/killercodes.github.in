@@ -101,4 +101,18 @@
 ]]>
     </Content>
   </Post>
+  <Post>
+    <Id>4564564</Id>
+    <Title>Post 6</Title>
+    <PublishedOn>Friday, December 30, 2020 3:45:16 PM</PublishedOn>
+    <Category>text</Category>
+    <Link></Link>
+    <Author>ABCD</Author>
+    <HashTag>second post,test2</HashTag>
+    <Content>
+      <![CDATA[# Applied
+post 6 has nothing
+]]>
+    </Content>
+  </Post>
 </Blog>
